@@ -80,7 +80,7 @@ def download_image():
                 file.write(data)
 
     print(response.status_code)
-
+    print(response.status_code)
 
 def oauth_auth():
     headers = {'Authorization': 'token 0f99445c3239715e82c96076f82413bd8557b1c7'}
